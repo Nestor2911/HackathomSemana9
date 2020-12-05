@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio de Examenes</title>
+</head>
+<body>
+    <script>
+        function Examenes(ex){
+            var Ex1 = 0;
+            var Ex2 = 0;           
+            var Ex3 = 0;  
+            var Ex4 = 0;  
+            P= 0;   
+        }
+
+        function main () {
+            alert('Bienvenido al Módulo de Promedio de Examenes')
+            Ex1 = parseInt(prompt ('Ingresar Primer Examen'));
+            Ex2 = parseInt(prompt ('Ingresar Segundo Examen'));
+            Ex3 = parseInt(prompt ('Ingresar Tercer Examen'));
+            Ex4 = parseInt(prompt ('Ingresar cuarto Examen'));
+            P = (Ex1+Ex2+Ex3+Ex4)/4;
+            //Examenes('Promedio').value = P
+            alert('El Promedio del Alumno es : ' +P)
+            
+        }
+
+        main();
+    </script>
+    
+</body>
+</html>

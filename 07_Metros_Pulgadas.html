@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Telas en Pulgadas</title>
+</head>
+<body>
+    <script>
+        function main () {
+            alert('Bienvenido al Módulo para solicitar la cantida de Telas en Pulgadas')
+            var m = parseInt(prompt('Ingresar los metros de Tela requeridos'));
+            var pulgadas = 0.0254;
+            var Calculo = (m/pulgadas);
+            
+            alert('Ustede debe solicitar ' +Calculo.toFixed(2) +' pulgadas de tela')
+            
+        }
+
+        main();
+    </script>
+</body>
+</html>

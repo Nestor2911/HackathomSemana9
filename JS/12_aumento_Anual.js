@@ -4,6 +4,7 @@ function salario(){
     let salario = 1500;
     for (Anio = 1; Anio <= 6; Anio++) {
         salario = 1500 * 1.10 ** Anio;
+        console.log("Su salario en el año ", Anio, " es de ", salario);
         alert("Salario en el año " +Anio +" es de " + salario.toFixed(2)); 
     }
     

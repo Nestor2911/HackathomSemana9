@@ -3,7 +3,7 @@ function areaCirculo(radio) {
     total = radio ** 2 * pi
     return total
 }
-
+alert('Bienvenido al Modulo para hallar el área de una Circunferencia ');
 let num1 = Number(prompt("Ingrese el radio del circulo: "))
 
 console.log("El area del circulo es: ", areaCirculo(num1))

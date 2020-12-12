@@ -2,7 +2,7 @@ function edad(hoy, nacimiento) {
     edad = hoy - nacimiento
     return edad
 }
-
+alert('Bienvenido al Modulo para hallar la Edad del Personal ');
 let num1 = Number(prompt("En que año se encuentra: "))
 let num2 = Number(prompt("Escriba la fecha de nacimiento: "))
 

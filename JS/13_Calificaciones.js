@@ -3,7 +3,7 @@ let apro = new Number();
 let desapro = new Number();
 apro = 0;
 desapro = 0;
-
+alert('Bienvenido al Modulo de Calificaciones ');
 let n = Number(prompt("Ingrese la cantidad de alumnos"));
 
 for (i = 1; i <= n; i++) {

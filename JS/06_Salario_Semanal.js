@@ -2,7 +2,7 @@ function sueldo(pagoporhora, horastrabajadas) {
     total = pagoporhora * horastrabajadas
     return total
 }
-
+alert('Bienvenido al Modulo para Calcular el Salario Semanal ');
 let num1 = Number(prompt("Ingrese el pago por hora: "))
 let num2 = Number(prompt("Ingrese la cantidad de horas trabajadas: "))
 

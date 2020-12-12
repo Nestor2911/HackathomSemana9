@@ -1,11 +1,10 @@
-function rectangulo() {
-    alert('Bienvenido al Módulo para hallar el Área de un Rectángulo')
-    var l = parseInt(prompt ('Ingresar Largo del rectángulo'));
-    var a = parseInt(prompt ('Ingresar Ancho del rectángulo'));
-    var P = (l*a);
-    
-    alert('El Área del Rectángulo es : ' +P)
-    
+function A_Rectangulo(a, b) {
+    total = a * b
+    return total
 }
 
-rectangulo();
+let num1 = Number(prompt("Ingrese el primer lado: "))
+let num2 = Number(prompt("Ingrese el segundo lado: "))
+
+console.log("El area es: ", A_Rectangulo(num1, num2))
+alert('El Area es: ' +total);

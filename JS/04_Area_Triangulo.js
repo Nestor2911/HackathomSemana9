@@ -1,10 +1,11 @@
-function triangulo() {
-    alert('Bienvenido al Módulo para hallar el Área de un Triángulo')
-    var b = parseInt(prompt('Ingresar Base del Triángulo'));
-    var h = parseInt(prompt('Ingresar Altura del Triángulo'));
-    var A = (b * h) / 2;
-    alert('El Área del triángulo es : ' + A)
-
+function areaTriangulo(b, h) {
+    total = (b * h) / 2
+    return total
 }
 
-triangulo();
+let num1 = Number(prompt("Ingrese la base del triangulo: "))
+let num2 = Number(prompt("Ingrese la altura del triangulo: "))
+
+console.log("El area es: ", areaTriangulo(num1, num2))
+    alert('El Área del triángulo es : ' +total)
+

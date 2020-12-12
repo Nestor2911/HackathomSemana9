@@ -1,11 +1,10 @@
-function dolares() {
-    alert('Bienvenido al Módulo para evaluar la cantidad de Dolares que puede Adquirir')
-    alert('Precio del Dolar S/ 3.5')
-    var S = parseInt(prompt('Ingresar Cantidad de Soles'));
-    var Calculo = (S/3.5);
-    
-    alert('Ustede puede adquirir  ' +Calculo.toFixed(2) +' Dolares con '+S.toFixed(2) +' Soles')
-    
+function conversion(soles) {
+    dolares = soles * 0.35
+    return dolares
 }
 
-dolares();
+let num1 = Number(prompt("Ingrese la cantidad en soles: "))
+
+console.log("Eso equivale a ", conversion(num1), " dolares")
+    alert('Ustede puede adquirir  ' +dolares.toFixed(2))
+    

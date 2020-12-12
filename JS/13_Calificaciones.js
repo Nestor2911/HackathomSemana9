@@ -17,4 +17,4 @@ for (i = 1; i <= n; i++) {
 
 console.log("El numero de aprobados es: ", apro);
 console.log("El numero de desaprobados es: ", desapro);
-alert('Cantidad de aprobados ' +apro ' y desaprobados ' +desapro);
+alert('Cantidad de aprobados ' +apro +' y desaprobados ' +desapro);

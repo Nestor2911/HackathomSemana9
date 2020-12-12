@@ -8,6 +8,7 @@ function menor() {
     var E3 = prompt('Ingrese la Edad 3');
 
     if (E1 < E2 && E1 < E3)
+    
         alert('El Menor es  ' + N1 + ' y su edad es ' + E1 + ' Años')
     else {
         if (E2 < E1 && E2 < E3)

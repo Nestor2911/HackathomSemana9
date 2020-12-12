@@ -11,3 +11,4 @@ function promedio(a, b, c, d) {
 
 
 console.log("El promedio es: ", promedio(Ex1, Ex2, Ex3, Ex4))
+alert('El Promedio es: ' +total);

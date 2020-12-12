@@ -1,10 +1,9 @@
-function suma() {
-    alert('Bienvenido al Módulo de Suma de Argumentos')
-    var a = parseInt(prompt('Ingresar Primer Argumento'));
-    var b = parseInt(prompt('Ingresar Segundo Argumento'));
-    var r = a + b;
-    alert('La suma de los Dos Argumentos es : ' + r)
-
+function suma(a, b) {
+    total = a + b
+    return total
 }
 
-suma();
+let num1 = Number(prompt("Ingrese el primer numero: "))
+let num2 = Number(prompt("Ingrese el segundo numero: "))
+
+console.log("La suma es: ", suma(num1, num2))

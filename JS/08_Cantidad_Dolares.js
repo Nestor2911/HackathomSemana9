@@ -1,5 +1,5 @@
 function conversion(soles) {
-    dolares = soles * 0.35
+    dolares = soles/3.5
     return dolares
 }
 

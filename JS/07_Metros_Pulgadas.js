@@ -1,11 +1,10 @@
-function tela() {
-    alert('Bienvenido al Módulo para solicitar la cantida de Telas en Pulgadas')
-    var m = parseInt(prompt('Ingresar los metros de Tela requeridos'));
-    var pulgadas = 0.0254;
-    var Calculo = (m/pulgadas);
-    
-    alert('Usted debe solicitar ' +Calculo.toFixed(2) +' pulgadas de tela')
-    
+function conversion(metro) {
+    pulgada = metro / 0.0254
+    return pulgada
 }
 
-tela();
+let num1 = Number(prompt("Ingrese la cantidad en metros: "))
+
+console.log("Resultado en pulgadas = ", conversion(num1))
+alert('Usted debe solicitar ' +pulgada.toFixed(2) +' pulgadas de tela')
+   

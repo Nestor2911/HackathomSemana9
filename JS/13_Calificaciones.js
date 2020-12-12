@@ -1,9 +1,8 @@
-function clase(){
 let i = new Number();
 let apro = new Number();
-let desa = new Number();
+let desapro = new Number();
 apro = 0;
-desa = 0;
+desapro = 0;
 
 let n = Number(prompt("Ingrese la cantidad de alumnos"));
 
@@ -12,10 +11,10 @@ for (i = 1; i <= n; i++) {
     if (nota > 12) {
         apro = apro + 1;
     } else {
-        desa = desa + 1;
+        desapro = desapro + 1;
     }
 }
-alert("los Aprobados son: " +apro + " y desaprobados son: "+desa );
 
-}
-clase();
+console.log("El numero de aprobados es: ", apro);
+console.log("El numero de desaprobados es: ", desapro);
+alert('Cantidad de aprobados ' +apro ' y desaprobados ' +desapro);

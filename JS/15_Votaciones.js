@@ -1,6 +1,6 @@
 function datos(edad) {
     const edadMayor = 18;
-    if ( edad > edadMayor){
+    if ( edad >= edadMayor){
         return ('Tu país te necesita en las próximas elecciones')
     }
     return('Aún no puedes votar')

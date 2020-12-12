@@ -15,9 +15,7 @@ for (i = 1; i <= n; i++) {
         desa = desa + 1;
     }
 }
-
 alert("los Aprobados son: " +apro + " y desaprobados son: "+desa );
-
 
 }
 clase();
